@@ -10197,7 +10197,6 @@ var PDFDocumentLoadingTask = function PDFDocumentLoadingTaskClosure() {
     }, {
       key: "then",
       value: function then(onFulfilled, onRejected) {
-        (0, _util.deprecated)('PDFDocumentLoadingTask.then method, ' + 'use the `promise` getter instead.');
         return this.promise.then.apply(this.promise, arguments);
       }
     }, {
@@ -11983,7 +11982,6 @@ function () {
   }, {
     key: "then",
     value: function then(onFulfilled, onRejected) {
-      (0, _util.deprecated)('RenderTask.then method, use the `promise` getter instead.');
       return this.promise.then.apply(this.promise, arguments);
     }
   }, {
